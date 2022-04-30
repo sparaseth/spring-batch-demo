@@ -1,0 +1,11 @@
+CREATE TABLE employee_bkp (
+  id int(11) NOT NULL,
+  FIRST_NAME varchar(45) DEFAULT NULL,
+  LAST_NAME varchar(45) DEFAULT NULL,
+  EMAIL varchar(45) DEFAULT NULL,
+  GENDER varchar(45) DEFAULT NULL,
+  IP_ADDRESS varchar(45) DEFAULT NULL,
+  COUNTRY varchar(45) DEFAULT NULL,
+  DOB varchar(45) DEFAULT NULL,
+  PRIMARY KEY (id)
+);
